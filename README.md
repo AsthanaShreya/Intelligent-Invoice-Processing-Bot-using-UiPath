@@ -80,6 +80,23 @@ Email Inbox → Attachment Download → OCR Extraction → Data Validation → E
 
 ---
 
+## Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[Gmail Inbox Monitoring IMAP] --> B[Filter Emails with Invoice Attachments]
+    B --> C[Download PDF Attachments]
+    C --> D[OCR Processing of PDF]
+    D --> E[Extract Invoice Data using Regex]
+    E --> F[Data Validation & Business Rules Check]
+    F --> G[Write Structured Data to Excel Report]
+    G --> H[Update Email Status -> Mark as Processed]
+
+
+```
+
+---
+
 ## Author
 Shreya Asthana  
 B.Tech Computer Science & Engineering  
