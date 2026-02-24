@@ -1,4 +1,4 @@
-# Intelligent Invoice Processing Bot
+# Intelligent Invoice Processing Bot using UiPath
 
 ## Overview
 The Intelligent Invoice Processing Bot is an RPA solution developed using UiPath to automate the end-to-end invoice handling process. The bot monitors a Gmail inbox, extracts invoice data from PDF attachments, validates the extracted information, and generates structured Excel reports for further processing.
